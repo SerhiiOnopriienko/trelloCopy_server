@@ -1,0 +1,19 @@
+{
+  "name": "bsa-patterns-server",
+  "version": "0.0.0",
+  "description": "Starter for Patterns Practises and Principles homework. Binary Studio Academy",
+  "scripts": {
+    "start": "nodemon ./src/index.ts"
+  },
+  "author": "Vitalii Yarmus",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/socket.io": "3.0.2",
+    "nodemon": "2.0.20",
+    "ts-node": "10.9.1"
+  },
+  "dependencies": {
+    "socket.io": "4.7.3"
+  }
+}
